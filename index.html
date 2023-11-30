@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gabarito">
+
+
+    <title>Michigan Athletes in Tech</title>
+</head>
+
+<body>
+
+    <nav>
+        <div id = "desktop">
+            <ul>
+                <li> <a href = "index.html" class = "currentPage"> Home </a></li>
+                <li> <a href = "leaders.html"> Our Leaders </a></li>
+                <li> <a href = "about.html"> About Us</a></li>
+                <li> <a href = "join.html"> Join Us</a></li>
+            </ul>
+        </div>
+
+        <div id = "mobileLinks">
+            <div class="topnav">
+
+                <a href="#main" class="active" aria-label="Skip to the Main Content of this Home Page"> Michigan Athletes in Tech </a>
+            
+                <div id="myLinks">
+                <a href="index.html" aria-label = "Travel to the Home Page" class = "currentPage"> Home</a>
+                <a href="leaders.html" aria-label = "Travel to the leaders page"> Our Leaders</a>
+                <a href="about.html" aria-label = "Travel to the about us page"> About Us</a>
+                <a href="join.html" aria-label = "Travel to the join us page"> Join! </a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label = "Expand nav menu">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+                </script>
+
+    </nav>
+
+    <div class = "homeGrid">
+
+    <!-- <h1> Welcome to MAI Tech!</h1> -->
+
+        <div class = homeBackground>
+            <div class = "overview" tabindex="0">
+
+            <h1> We are here for you!</h1>
+            <br>
+                <p id = "main"> Welcome to Michigan Athletes in Tech (MAI Tech), a club founded in 2022 by our visionary leaders Berachiah Ajala, Lais Najjar, and Logan McKeown. Recognizing the increasing competitiveness of the tech industry, our founders embarked on a mission to bridge the gap for athletes aspiring to thrive in this dynamic field.</p>
+                <br>
+                <p>In the fast-paced world of technology, athletes often face challenges in attending information sessions, recruiting events, and company sessions that are vital for career preparation. MAI Tech was born from the understanding that athletes deserve equal access to opportunities, and we are here to level the playing field.</p>
+                <br>
+                <p>Our club is more than just a platform; it's a dedicated community committed to providing athletes with the tools and opportunities they need to excel in the technology industry. Whether you're navigating information sessions, honing skills in recruiting events, or gaining insights from company sessions, MAI Tech is your ally in preparing for a successful career.</p>
+                <br> 
+                <p>Join us on this transformative journey where we empower athletes to navigate the competitive tech landscape with confidence and resilience. At MAI Tech, we believe in unlocking the potential of every athlete, ensuring they have the support and resources necessary to thrive in the evolving world of technology.</p>
+            </div>
+        </div>
+        <div class = "explore">
+            <h2> EXPLORE</h2>
+            <a href = "leaders.html" aria-label = "Link to a page about our founders"> <div class = square> <img src = "images/leaders.jpeg"></div> </a>
+            <a href = "about.html" aria-label = "Link to a page about our club"> <div class = square><img src = "images/about 2.jpeg"></div> </a>
+           <a href = "join.html" aria-label = "Link to a page to join our club"> <div class = square><img src = "images/Initial Logo.png"></div> </a>
+        </div>
+    </div>
+
+    <div class = 'footer'>
+        <a href = "https://www.linkedin.com/company/mai-tech/about/?viewAsMember=true" aria-label="Link to our linkedIn page"> Connect With Us On LinkedIn | </a>
+     <p> Created by Zachary Granados, 2023</p>
+    
+    </div>
+     
+
+    
+</body>
+</html>

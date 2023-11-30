@@ -1,0 +1,245 @@
+nav #desktop{
+    display: none;
+}
+
+.desktopSkip{
+  background: #636262;
+  height: fit-content;
+   padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  color: white;
+  font-size: 150%;
+}
+
+.desktopSkip:focus{
+  transform: translateY(150%);
+  text-decoration: underline;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #494848;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-family: Gabarito;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #494848;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover, .topnav a:focus {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+  }
+
+  a.active{
+    font-size: 125%;
+    font-family: Gabarito;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .topnav .currentPage{
+    background-color: #d4d1d1;
+    color: black;
+    text-decoration: underline;
+  }
+
+  body{
+    background-color: #00274C;
+    font-family: Gabarito;
+  }
+
+  /* end of nav styling */
+
+  
+  .homeGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .homeGrid h1{
+    font-size: 200%;
+  }
+
+.overview{
+grid-column: 1 / -1;
+grid-row: 2;
+
+padding: 10px;
+background-color: rgba(255, 255, 255, .8);
+border: 5px solid #FFCB05;
+padding: 30px;
+
+margin: 10px;
+
+color:rgb(94, 92, 92);
+max-height: 400px;
+overflow: auto;
+}
+
+.overview h1{
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.homeBackground{
+    grid-column: 1/-1;
+    grid-row: 2;
+    background-image:url("../images/server.jpeg");
+    background-repeat: repeat;
+    margin: 5px;
+}
+
+.overview:focus{
+overflow: visible;
+background-color: white;
+max-height: fit-content;
+ }
+
+ .explore{
+    grid-column: 1/-1;
+    grid-row: 3;
+ }
+
+ .explore h2{
+    grid-row: 4;
+
+    background-color: rgba(255, 255, 255);
+    padding: 3px;
+    margin: 5px;
+    margin-left: 15px;
+    border: 2px solid #FFCB05;
+    width: fit-content;
+    height: fit-content;
+ }
+
+ .square{
+    height: fit-content;
+    width: 200px;
+    margin: auto;
+
+    padding: 5px;
+    background-color:rgba(255, 255, 255);
+    border: 2px solid #FFCB05;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+ }
+
+ .footer{
+    color: white;
+    background-color: #494848;
+    height: fit-content;
+    font-size: 65%;
+ }
+
+ .footer p, .footer a{
+    display: inline-block;
+    margin-left: 5px;
+ }
+
+ .footer a:hover, .footer a:focus{
+    text-decoration: underline;
+    color: blue;
+ }
+
+ /* leaders page */
+
+ .leaderGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+ .leaderGrid h1 {
+    grid-row: 1;
+    grid-column: 1/-1;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px;
+    border: solid 3px #FFCB05;
+
+    font-size: 200%;
+    width: fit-content;
+    color:rgb(94, 92, 92);
+    background-color:rgba(255, 255, 255);
+   
+ }
+
+ /* .leadersBackground{
+    grid-column: 1/-1;
+    background-image:url("../images/header.jpeg");
+    height: 300%;
+ } */
+
+ .leaderGrid a{
+   
+    width: fit-content;
+    margin: auto;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    padding: 5px;
+    background-color:rgba(255, 255, 255);
+    border: solid 5px #FFCB05;
+ }
+
+ .leaderGrid h2{
+    margin: auto;
+    font-size: 150%;
+    color: rgb(94, 92, 92);
+    background-color: rgba(255, 255, 255);
+
+    padding: 3px;
+    border: solid 3px #FFCB05;
+ }
+
+ .leaderGrid h3{
+    margin: auto;
+    font-size: 125%;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+
+ }
+
+ .bio{
+    padding: 10px;
+    background-color: rgba(255, 255, 255);
+    color:rgb(94, 92, 92);
+    border: solid 3px #FFCB05;
+    margin: 15px;
+    text-align: center;
+ }
+
+ .leaderGrid a:hover, .leaderGrid a:focus { 
+    border: solid 5px rgb(94, 92, 92);
+
+ }
+
+

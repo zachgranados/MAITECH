@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gabarito">
+
+    <title>Michigan Athletes in Tech</title>
+</head>
+
+<body>
+
+    <nav>
+        <div id = "desktop">
+            <ul>
+                <li> <a href = "index.html"> Home </a></li>
+                <li> <a href = "leaders.html"> Our Leaders </a></li>
+                <li> <a href = "about.html"> About Us</a></li>
+                <li> <a href = "join.html" class = "currentPage"> Join Us</a></li>
+            </ul>
+        </div>
+
+        <div id = "mobileLinks">
+            <div class="topnav">
+
+                <a href="#main" class="active" aria-label="Skip to the Main Content of this Home Page"> Michigan Athletes in Tech </a>
+            
+                <div id="myLinks">
+                <a href="index.html" aria-label = "Travel to the Home Page"> Home</a>
+                <a href="leaders.html" aria-label = "Travel to the leaders page"> Our Leaders</a>
+                <a href="about.html" aria-label = "Travel to the about us page"> About Us</a>
+                <a href="join.html" aria-label = "Travel to the join us page" class = "currentPage"> Join! </a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label = "Expand nav menu">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+                </script>
+
+    </nav>
+
+    
+</body>
+</html>
