@@ -121,6 +121,10 @@ background-color: white;
 max-height: fit-content;
  }
 
+.overview p{
+    text-align: center;
+}
+
  .explore{
     grid-column: 1/-1;
     grid-row: 3;
@@ -129,11 +133,11 @@ max-height: fit-content;
  .explore h2{
     grid-row: 4;
 
-    background-color: rgba(255, 255, 255);
+    color: #FFCB05;
     padding: 3px;
     margin: 5px;
     margin-left: 15px;
-    border: 2px solid #FFCB05;
+    font-size: 125%;
     width: fit-content;
     height: fit-content;
  }
@@ -241,5 +245,109 @@ max-height: fit-content;
     border: solid 5px rgb(94, 92, 92);
 
  }
+
+ .aboutGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+ .mission{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .8);
+    color:rgb(94, 92, 92);
+    border: solid 3px #FFCB05;
+
+    margin: auto;
+    margin: 10px;
+ }
+
+ .background{
+    grid-column: 1/-1;
+    grid-row: 1;
+    background-image:url("../images/server.jpeg");
+    background-repeat: repeat;
+    margin: 5px;
+}
+
+.mission:focus{
+overflow: visible;
+background-color: white;
+max-height: fit-content;
+}
+
+
+
+.aboutGrid h1 {
+    font-size: 175%;
+}
+
+.aboutGrid h2{
+    font-size: 125%;
+    color:rgba(255, 255, 255);
+    margin: 15px;
+}
+
+.scroll{
+    background-color: rgb(94, 92, 92);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.scroll img{
+    padding: 5px;
+    background-color: rgba(255, 255, 255);
+    border: 3px solid #FFCB05;
+
+}
+
+.aboutGrid .year2022{
+    background-color: rgba(255, 255, 255);
+    color: rgb(94, 92, 92);
+
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #FFCB05;
+
+    text-align: left;
+
+}
+
+.joinGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.joinGrid h1{
+    font-size: 175%;
+    margin: 10px;
+    color: rgba(255, 255, 255);
+    margin: auto;
+}
+
+.joinGrid p{
+    background-color: rgba(255, 255, 255);
+    color: rgb(94, 92, 92);
+
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #FFCB05;
+    text-align: center;
+}
+
+.joinGrid iframe{
+   width: 85%;
+   background-color: rgb(94, 92, 92);
+   margin: auto;
+   margin-top: 15px;
+   border: 2px solid #FFCB05;
+    
+}
+
+
+ 
+ 
+
+ 
 
 
