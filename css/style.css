@@ -1,5 +1,9 @@
 @media only screen and (min-width: 0px){
 
+#mobileView{
+    margin-bottom: 50px;
+}
+
 #Z{
     margin-bottom: 50px;
 }
@@ -7,7 +11,7 @@
 #Z:focus, #Lo:focus, #B:focus, #La:focus{
     overflow: visible;
     max-height: fit-content;
-    
+
 }
 
  #leadFooter{
