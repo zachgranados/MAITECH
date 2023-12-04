@@ -21,12 +21,13 @@
 <body>
 
     <nav>
+      <a href = "#main" class = "desktopSkip" tabindex="1"> Skip to Main Content</a>
         <div id = "desktop">
             <ul>
-                <li> <a href = "index.html"> Home </a></li>
-                <li> <a href = "leaders.html" class = "currentPage"> Our Leaders </a></li>
-                <li> <a href = "about.html"> About Us</a></li>
-                <li> <a href = "join.html"> Join Us</a></li>
+                <li> <a href = "index.html" tabindex="0"> Home </a></li>
+                <li> <a href = "leaders.html" class = "currentPage" tabindex="0"> Our Leaders </a></li>
+                <li> <a href = "about.html" tabindex="0"> About Us</a></li>
+                <li> <a href = "join.html" tabindex="0"> Join Us</a></li>
             </ul>
         </div>
 
@@ -62,36 +63,42 @@
     </nav>
 
  <div class = "leaderGrid">
-     <div class = "leadersBackground">
+   
          <h1> The Executive Team </h1>
-     </div>
-
-      <a href="https://www.linkedin.com/in/logan-mckeown-08044b204/"><img src = "images/Logan.webp" class = "headshot"></a>
+     
+      
+        <a href="https://www.linkedin.com/in/logan-mckeown-08044b204/"><img src = "images/Logan.webp" class = "headshot" alt = "Logan LinkedIn"></a>
         
-         <h2>Logan McKeown</h2>
-            
-         <h3> Co-Founder </h3>
+           <div class = "leaderInfo">
+             <h2 id = "main">Logan McKeown</h2>
+             <h3> Co-Founder </h3>
+           </div>
+      
          
-         <p class = "bio">Meet Logan, a dynamic Junior at the University of Michigan and a dedicated member of the Michigan Men's Gymnastics team. Majoring in Computer Science with a minor in entrepreneurship, Logan is passionate about expanding his technical skill set and taking on leadership responsibilities. Drawing from his experience as a software engineering intern at Ford Motor Company and with an upcoming internship at the esteemed tech consulting firm, Accenture, Logan brings a wealth of expertise to our leadership team. His knack for securing impactful internships and proficiency in programming make him an invaluable asset to our club. Join us and benefit from Logan's leadership and technical prowess!</p>
+         <p class = "bio" id = "Lo">Meet Logan, a dynamic Junior at the University of Michigan and a dedicated member of the Michigan Men's Gymnastics team. Majoring in Computer Science with a minor in entrepreneurship, Logan is passionate about expanding his technical skill set and taking on leadership responsibilities. Drawing from his experience as a software engineering intern at Ford Motor Company and with an upcoming internship at the esteemed tech consulting firm, Accenture, Logan brings a wealth of expertise to our leadership team. His knack for securing impactful internships and proficiency in programming make him an invaluable asset to our club. Join us and benefit from Logan's leadership and technical prowess!</p>
 
      
 
-         <a href="https://www.linkedin.com/in/laisnajjar/"><img src = "images/Lais.webp" class = "headshot"></a>
-         <h2>Lais Najjar</h2>
-         <h3> Co-Founder </h3>
+         <a href="https://www.linkedin.com/in/laisnajjar/" class = "opposite" id = "LaPic"><img src = "images/Lais.webp" class = "headshot" alt = "Lais LinkedIn"></a>
+         <div class = "leaderInfo" id = "LaInfo">
+           <h2>Lais Najjar</h2>
+           <h3> Co-Founder </h3>
+         </div>
          
-         <div class = "bio">
+         <div class = "bio" id = "La">
              <p>Meet Lais, a dedicated junior studying computer science and serving as the captain of the Michigan Men’s Gymnastics team. Beyond his achievements in athletics, Lais has proudly represented Syria at international meets, including the prestigious 2022 World Championships. Lais infuses the MAI Tech with his charismatic leadership, constantly finding innovative directions to push the club and its members. Lais draws from his diverse experiences, including internships with Protiviti in tech consulting and Datasaur in software engineering to help prepare club members for the vigorous recruiting process of internships in the tech industry. </p>
              <br>
                      <p>Lais goes beyond the traditional club leader role by serving as an instructional aide for EECS 281 (Data Structures and Algorithms), a renowned and challenging course within the University of Michigan's computer science degree path. This gives members of MAI Tech a critical resource that helps to manage the workload of such a difficult class. With his wealth of leadership experience and extensive real-world knowledge, Lais is a truly valuable asset to our club. Join us and benefit from Lais' guidance as we explore the intersection of technology, problem-solving, and personal development.</p>
          </div>
  
   
-         <a href="https://www.linkedin.com/in/berachiah-ajala-8a5375203/"><img src = "images/Bera.webp" class = "headshot"></a>
-         <h2>Berachiah Ajala</h2>
-         <h3> Co-Founder </h3>
+         <a href="https://www.linkedin.com/in/berachiah-ajala-8a5375203/" id = BPic><img src = "images/Bera.webp" class = "headshot" alt = "Bera LinkedIn"></a>
+         <div class = "leaderInfo" id = "BInfo">
+           <h2>Berachiah Ajala</h2>
+           <h3> Co-Founder </h3>
+         </div>
          
-         <div class = "bio">
+         <div class = "bio" id = "B">
              <p>
                 Meet Bera, a junior athlete on the Michigan Track and Field Team, hailing from the United Kingdom. With a diverse background, Bera brings a unique and enriching perspective to our club. Beyond the track, Bera is deeply passionate about the integration of software and people to solve real-world problems.
                  </p>
@@ -101,11 +108,13 @@
                 <p>Bera's diverse perspective and rich professional experience make him an invaluable asset to our club. Join us and tap into the wealth of knowledge and connections that Bera brings, as we explore the intersection of athletics, technology, and real-world problem-solving.</p>
          </div>
 
-        <a href = "https://www.linkedin.com/in/zachary-granados/"> <img src = "images/Headshot.JPG" class = headshot></a>
-        <h2> Zachary Granados </h2>
-        <h3> Director of Technology </h3>
+        <a href = "https://www.linkedin.com/in/zachary-granados/" class = "opposite" id = "ZPic"> <img src = "images/Headshot.JPG" class = headshot alt = "Zachary LinkedIN"></a>
+        <div class = "leaderInfo" id = "ZInfo">
+          <h2> Zachary Granados </h2>
+          <h3> Director of Technology </h3>
+        </div>
 
-        <div class = "bio">
+        <div class = "bio" id = "Z">
 
  <p> Meet Zachary Granados, a sophomore and pommel horse specialist on the Michigan Men’s Gymnastics team. Currently pursuing a degree in Information Analysis with a minor in Statistics and Computer science. Zachary is driven by a passion for leveraging data to make informed decisions and his ultimate career goal is in the realm of sports data analytics.</p>
 <br>
