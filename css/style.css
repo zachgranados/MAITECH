@@ -1,4 +1,35 @@
 @media only screen and (min-width: 0px){
+
+#Z{
+    margin-bottom: 50px;
+}
+
+#Z:focus, #Lo:focus, #B:focus, #La:focus{
+    overflow: visible;
+    max-height: fit-content;
+    
+}
+
+ #leadFooter{
+        color: white;
+        background-color: #494848;
+        height: fit-content;
+        font-size: 100%;
+     }
+    
+  #leadFooter p, #Leadfooter a{
+        display: inline-block;
+        margin-left: 5px;
+     }
+    
+    #leadFooter a:hover, #leadFooter a:focus{
+        text-decoration: underline;
+        color: blue;
+     }
+
+.joinGrid #main{
+    margin-bottom: 50px;
+}
 nav #desktop{
     display: none;
 }
@@ -162,7 +193,7 @@ max-height: fit-content;
     color: white;
     background-color: #494848;
     height: fit-content;
-    font-size: 65%;
+    font-size: 85%;
  }
 
  .footer p, .footer a{
@@ -174,6 +205,20 @@ max-height: fit-content;
     text-decoration: underline;
     color: blue;
  }
+
+ .page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    margin-top: 25px;           /* Footer height */
+  }
+
 
  /* leaders page */
 
@@ -316,6 +361,7 @@ max-height: fit-content;
     border: 2px solid #FFCB05;
 
     text-align: left;
+    margin-bottom: 50px;
 
 }
 
@@ -374,6 +420,7 @@ max-height: fit-content;
         color: rgba(255, 255, 255);
         /* text-align: center; */
       }
+
       nav #desktop ul{
         text-align: center;
         height: fit-content;
@@ -392,11 +439,8 @@ max-height: fit-content;
     height: inherit;
   }
   
-    nav #desktopLinks a:focus, nav #desktopLinks a:hover{
-    background-color: #d4d1d1;
-    border: 2px solid black;
-    padding: 10px;
-  }
+
+
 
   /* home page */
 
@@ -519,6 +563,7 @@ max-height: fit-content;
   #ZInfo{
     grid-row: 9;
     grid-column: 3/-1;
+    margin-bottom: 50px;
   }
 
   #ZPic{
@@ -557,6 +602,7 @@ max-height: fit-content;
     max-height: 400px;
     overflow: auto;
     font-size: 125%;
+
   }
 
 
@@ -578,8 +624,11 @@ max-height: fit-content;
     font-size: 100%;
   }
 
-#desktop li a:focus{
+#desktop li a:focus, #desktop li a:hover{
     border: 2px solid black;
+    color: rgb(94, 92, 92);
+    background-color:rgba(255, 255, 255);
+    padding: 15px;
 }
 
 .explore a:focus{
@@ -633,5 +682,18 @@ max-height: fit-content;
   .container .overlay a:focus, .container .overlay a:hover{
     border: solid 2px rgb(94, 92, 92);
   }
+
+  .footer{
+    margin-top: 25px;
+  }
+
+  #Z, #La, #B{
+    max-height: 250px;
+    overflow: auto;
+  }
+
+
+
+
   }
 
